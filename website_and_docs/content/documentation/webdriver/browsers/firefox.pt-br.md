@@ -337,7 +337,7 @@ Um arquivo xpi que pode ser obtido da [página Mozilla Extras](https://addons.mo
 
 {{< tabpane text=true >}}
 {{< tab header="Java" >}}
-{{< gh-codeblock path="/examples/java/src/test/java/dev/selenium/browsers/FirefoxTest.java#L132" >}}
+{{< gh-codeblock path="/examples/java/src/test/java/dev/selenium/browsers/FirefoxTest.java#L133" >}}
 {{< /tab >}}
 {{< tab header="Python" >}}
 {{< gh-codeblock path="/examples/python/tests/browsers/test_firefox.py#L94" >}}
@@ -362,7 +362,7 @@ Desinstalar uma extensão implica saber o seu id que pode ser obtido como valor 
 
 {{< tabpane text=true >}}
 {{< tab header="Java" >}}
-{{< gh-codeblock path="/examples/java/src/test/java/dev/selenium/browsers/FirefoxTest.java#L146" >}}
+{{< gh-codeblock path="/examples/java/src/test/java/dev/selenium/browsers/FirefoxTest.java#L148" >}}
 {{< /tab >}}
 {{< tab header="Python" >}}
 {{< gh-codeblock path="/examples/python/tests/browsers/test_firefox.py#L106" >}}
@@ -390,7 +390,7 @@ uma pasta, este é um exemplo com uma pasta:
 
 {{< tabpane text=true >}}
 {{< tab header="Java" >}}
-{{< gh-codeblock path="/examples/java/src/test/java/dev/selenium/browsers/FirefoxTest.java#L157" >}}
+{{< gh-codeblock path="/examples/java/src/test/java/dev/selenium/browsers/FirefoxTest.java#L160" >}}
 {{< /tab >}}
 {{< tab header="Python" >}}
 {{< gh-codeblock path="/examples/python/tests/browsers/test_firefox.py#L115" >}}

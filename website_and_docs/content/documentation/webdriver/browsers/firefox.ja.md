@@ -331,7 +331,7 @@ T以下の例はローカルWebDriver用です。リモートWebDriverについ�
 
 {{< tabpane text=true >}}
 {{< tab header="Java" >}}
-{{< gh-codeblock path="/examples/java/src/test/java/dev/selenium/browsers/FirefoxTest.java#L132" >}}
+{{< gh-codeblock path="/examples/java/src/test/java/dev/selenium/browsers/FirefoxTest.java#L133" >}}
 {{< /tab >}}
 {{< tab header="Python" >}}
 {{< gh-codeblock path="/examples/python/tests/browsers/test_firefox.py#L94" >}}
@@ -357,7 +357,7 @@ IDはアドオンインストール時の戻り値から取得できます。
 
 {{< tabpane text=true >}}
 {{< tab header="Java" >}}
-{{< gh-codeblock path="/examples/java/src/test/java/dev/selenium/browsers/FirefoxTest.java#L146" >}}
+{{< gh-codeblock path="/examples/java/src/test/java/dev/selenium/browsers/FirefoxTest.java#L148" >}}
 {{< /tab >}}
 {{< tab header="Python" >}}
 {{< gh-codeblock path="/examples/python/tests/browsers/test_firefox.py#L106" >}}
@@ -385,7 +385,7 @@ IDはアドオンインストール時の戻り値から取得できます。
 
 {{< tabpane text=true >}}
 {{< tab header="Java" >}}
-{{< gh-codeblock path="/examples/java/src/test/java/dev/selenium/browsers/FirefoxTest.java#L157" >}}
+{{< gh-codeblock path="/examples/java/src/test/java/dev/selenium/browsers/FirefoxTest.java#L160" >}}
 {{< /tab >}}
 {{< tab header="Python" >}}
 {{< gh-codeblock path="/examples/python/tests/browsers/test_firefox.py#L115" >}}
