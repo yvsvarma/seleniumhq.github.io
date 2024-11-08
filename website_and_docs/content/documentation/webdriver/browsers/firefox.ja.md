@@ -343,7 +343,7 @@ T以下の例はローカルWebDriver用です。リモートWebDriverについ�
 {{< gh-codeblock path="/examples/ruby/spec/browsers/firefox_spec.rb#L95" >}}
 {{< /tab >}}
 {{< tab header="JavaScript" >}}
-{{< gh-codeblock path="/examples/javascript/test/browser/firefoxSpecificFunctionalities.spec.js#L22-L24">}}
+{{< gh-codeblock path="/examples/javascript/test/browser/firefoxSpecificFunctionalities.spec.js#L25">}}
 {{< /tab >}}
 {{< tab header="Kotlin" >}}
 {{< badge-code >}}
@@ -370,7 +370,7 @@ IDはアドオンインストール時の戻り値から取得できます。
 {{< gh-codeblock path="/examples/ruby/spec/browsers/firefox_spec.rb#L106" >}}
 {{< /tab >}}
 {{< tab header="JavaScript" >}}
-{{< gh-codeblock path="/examples/javascript/test/browser/firefoxSpecificFunctionalities.spec.js#L25">}}
+{{< gh-codeblock path="/examples/javascript/test/browser/firefoxSpecificFunctionalities.spec.js#L26">}}
 {{< /tab >}}
 {{< tab header="Kotlin" >}}
 {{< badge-code >}}
@@ -399,7 +399,7 @@ IDはアドオンインストール時の戻り値から取得できます。
 {{< gh-codeblock path="/examples/ruby/spec/browsers/firefox_spec.rb#L115" >}}
 {{< /tab >}}
 {{< tab header="JavaScript" >}}
-{{< gh-codeblock path="/examples/javascript/test/browser/firefoxSpecificFunctionalities.spec.js#L36-L38">}}
+{{< gh-codeblock path="/examples/javascript/test/browser/firefoxSpecificFunctionalities.spec.js#L41">}}
 {{< /tab >}}
 {{< tab header="Kotlin" >}}
 {{< badge-code >}}

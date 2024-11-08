@@ -344,7 +344,7 @@ A signed xpi file you would get from [Mozilla Addon page](https://addons.mozilla
 {{< gh-codeblock path="/examples/ruby/spec/browsers/firefox_spec.rb#L95" >}}
 {{< /tab >}}
 {{< tab header="JavaScript" >}}
-{{< gh-codeblock path="/examples/javascript/test/browser/firefoxSpecificFunctionalities.spec.js#L22-L24">}}
+{{< gh-codeblock path="/examples/javascript/test/browser/firefoxSpecificFunctionalities.spec.js#L25">}}
 {{< /tab >}}
 {{< tab header="Kotlin" >}}
 {{< badge-code >}}
@@ -370,7 +370,7 @@ Uninstalling an addon requires knowing its id. The id can be obtained from the r
 {{< gh-codeblock path="/examples/ruby/spec/browsers/firefox_spec.rb#L106" >}}
 {{< /tab >}}
 {{< tab header="JavaScript" >}}
-{{< gh-codeblock path="/examples/javascript/test/browser/firefoxSpecificFunctionalities.spec.js#L25">}}
+{{< gh-codeblock path="/examples/javascript/test/browser/firefoxSpecificFunctionalities.spec.js#L26">}}
 {{< /tab >}}
 {{< tab header="Kotlin" >}}
 {{< badge-code >}}
@@ -399,7 +399,7 @@ example with a directory:
 {{< gh-codeblock path="/examples/ruby/spec/browsers/firefox_spec.rb#L115" >}}
 {{< /tab >}}
 {{< tab header="JavaScript" >}}
-{{< gh-codeblock path="/examples/javascript/test/browser/firefoxSpecificFunctionalities.spec.js#L36-L38">}}
+{{< gh-codeblock path="/examples/javascript/test/browser/firefoxSpecificFunctionalities.spec.js#L41">}}
 {{< /tab >}}
 {{< tab header="Kotlin" >}}
 {{< badge-code >}}
