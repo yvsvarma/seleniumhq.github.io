@@ -125,7 +125,6 @@ public class FirefoxTest extends BaseTest {
   }
 
   @Test
-  @Disabled("Skipping tests until Firefox 127 is released")
   public void installAddon() {
     driver = startFirefoxDriver();
     Path xpiPath = Paths.get("src/test/resources/extensions/selenium-example.xpi");
@@ -139,7 +138,6 @@ public class FirefoxTest extends BaseTest {
   }
 
   @Test
-  @Disabled("Skipping tests until Firefox 127 is released")
   public void uninstallAddon() {
     driver = startFirefoxDriver();
     Path xpiPath = Paths.get("src/test/resources/extensions/selenium-example.xpi");
@@ -152,7 +150,6 @@ public class FirefoxTest extends BaseTest {
   }
 
   @Test
-  @Disabled("Skipping tests until Firefox 127 is released")
   public void installUnsignedAddonPath() {
     driver = startFirefoxDriver();
     Path path = Paths.get("src/test/resources/extensions/selenium-example");
