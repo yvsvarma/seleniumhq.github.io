@@ -124,6 +124,7 @@ public class FirefoxTest extends BaseTest {
     Assertions.assertTrue(location.contains(profileDirectory.getAbsolutePath()));
   }
 
+
   @Test
   public void installAddon() {
     driver = startFirefoxDriver();
@@ -137,6 +138,7 @@ public class FirefoxTest extends BaseTest {
         "Content injected by webextensions-selenium-example", injected.getText());
   }
 
+
   @Test
   public void uninstallAddon() {
     driver = startFirefoxDriver();
@@ -148,6 +150,7 @@ public class FirefoxTest extends BaseTest {
     driver.get("https://www.selenium.dev/selenium/web/blank.html");
     Assertions.assertEquals(driver.findElements(By.id("webextensions-selenium-example")).size(), 0);
   }
+
 
   @Test
   public void installUnsignedAddonPath() {
