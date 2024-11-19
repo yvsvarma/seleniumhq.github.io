@@ -38,7 +38,7 @@ Este é um exemplo de como iniciar uma sessão Safari com um conjunto de opçõe
 {{< gh-codeblock path="/examples/ruby/spec/browsers/safari_spec.rb#L8-L9" >}}
 {{< /tab >}}
 {{< tab header="JavaScript" text=true >}}
-{{< gh-codeblock path="/examples/javascript/test/browser/safariSpecificCap.spec.js#L10-L12" >}}
+{{< gh-codeblock path="/examples/javascript/test/browser/safariSpecificCap.spec.js#L8-L11" >}}
 {{< /tab >}}
 {{< tab header="Kotlin" >}}
 val options = SafariOptions()

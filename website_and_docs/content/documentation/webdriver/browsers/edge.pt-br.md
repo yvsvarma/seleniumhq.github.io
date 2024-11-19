@@ -180,7 +180,7 @@ Set excluded arguments on options:
 {{< gh-codeblock path="/examples/ruby/spec/browsers/edge_spec.rb#L53" >}}
 {{< /tab >}}
 {{< tab header="JavaScript" >}}
-{{< gh-codeblock path="/examples/javascript/test/getting_started/openEdgeTest.spec.js#L20-L23">}}
+{{< gh-codeblock path="/examples/javascript/test/browser/edgeSpecificCaps.spec.js#L22">}}
 {{< /tab >}}
 {{< tab header="Kotlin" >}}
 {{< badge-code >}}

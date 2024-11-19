@@ -64,7 +64,7 @@ Firefox に固有のCapabilityは、Mozilla のページの [firefoxOptions](htt
 {{< gh-codeblock path="/examples/ruby/spec/browsers/firefox_spec.rb#L17" >}}
 {{< /tab >}}
 {{< tab header="JavaScript" >}}
-{{< gh-codeblock path="/examples/javascript/test/browser/firefoxSpecificFunctionalities.spec.js#L12-L14">}}
+{{< gh-codeblock path="/examples/javascript/test/browser/firefoxSpecificFunctionalities.spec.js#L12">}}
 {{< /tab >}}
 {{< tab header="Kotlin" >}}
 {{< badge-code >}}
