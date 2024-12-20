@@ -268,7 +268,7 @@ options.setCapability("silent", true);
 WebDriver driver = new InternetExplorerDriver(options);
   {{< /tab >}}
   {{< tab header="Python" text=true >}}
-{{< gh-codeblock path="/examples/python/tests/browsers/test_internet_explorer.py#L68-L71" >}}
+{{< gh-codeblock path="/examples/python/tests/browsers/test_internet_explorer.py#L68-L69" >}}
   {{< /tab >}}
   {{< tab header="CSharp" >}}
 InternetExplorerOptions options = new InternetExplorerOptions();
@@ -356,7 +356,7 @@ public class ieTest {
 }
   {{< /tab >}}
   {{< tab header="Python" text=true >}}
-{{< gh-codeblock path="/examples/python/tests/browsers/test_internet_explorer.py#L78-L81" >}}
+{{< gh-codeblock path="/examples/python/tests/browsers/test_internet_explorer.py#L76-L79" >}}
   {{< /tab >}}
   {{< tab header="CSharp" >}}
 using System;
@@ -441,7 +441,7 @@ public class ieTest {
 }
   {{< /tab >}}
   {{< tab header="Python" text=true >}}
-{{< gh-codeblock path="/examples/python/tests/browsers/test_internet_explorer.py#L88-L91" >}}
+{{< gh-codeblock path="/examples/python/tests/browsers/test_internet_explorer.py#L87-L90" >}}
   {{< /tab >}}
   {{< tab header="CSharp" >}}
 using System;
@@ -515,7 +515,7 @@ Property key: `InternetExplorerDriverService.IE_DRIVER_LOGFILE_PROPERTY`\
 Property value: String representing path to log file
 {{% /tab %}}
 {{< tab header="Python" >}}
-{{< gh-codeblock path="examples/python/tests/browsers/test_internet_explorer.py#L98" >}}
+{{< gh-codeblock path="examples/python/tests/browsers/test_internet_explorer.py#L97-L99" >}}
 {{< /tab >}}
 {{< tab header="CSharp" >}}
 {{< badge-implementation >}}
@@ -546,7 +546,7 @@ Property value: `DriverService.LOG_STDOUT` or `DriverService.LOG_STDERR`
 {{% /tab %}}
 {{< tab header="Python" text=true >}}
 {{< badge-version version="4.11" >}}
-{{< gh-codeblock path="examples/python/tests/browsers/test_internet_explorer.py#L110" >}}
+{{< gh-codeblock path="examples/python/tests/browsers/test_internet_explorer.py#L109-L111" >}}
 {{< /tab >}}
 {{< tab header="CSharp" >}}
 {{< badge-implementation >}}
@@ -575,7 +575,7 @@ Property key: `InternetExplorerDriverService.IE_DRIVER_LOGLEVEL_PROPERTY`\
 Property value: String representation of `InternetExplorerDriverLogLevel.DEBUG.toString()` enum
 {{% /tab %}}
 {{< tab header="Python" text=true >}}
-{{< gh-codeblock path="examples/python/tests/browsers/test_internet_explorer.py#L122" >}}
+{{< gh-codeblock path="examples/python/tests/browsers/test_internet_explorer.py#L121-123" >}}
 {{< /tab >}}
 {{< tab header="CSharp" >}}
 {{< gh-codeblock path="examples/dotnet/SeleniumDocs/Browsers/InternetExplorerTest.cs#L85" >}}
@@ -603,7 +603,7 @@ Property value: String representing path to supporting files directory
 {{< /tab >}}
 {{< tab header="Python" text=true >}}
 {{< badge-version version="4.11" >}}
-{{< gh-codeblock path="examples/python/tests/browsers/test_internet_explorer.py#L134" >}}
+{{< gh-codeblock path="examples/python/tests/browsers/test_internet_explorer.py#L133-135" >}}
 {{< /tab >}}
 {{< tab header="CSharp" >}}
 {{< gh-codeblock path="examples/dotnet/SeleniumDocs/Browsers/InternetExplorerTest.cs#L98" >}}
