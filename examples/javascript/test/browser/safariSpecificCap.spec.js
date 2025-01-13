@@ -14,3 +14,22 @@ describe('Should be able to Test Command line arguments', function () {
     await driver.quit();
   });
 });
+
+describe('Should be able to enable Safari logging', function () {
+  this.timeout(15000); 
+  (process.platform === 'darwin' ? it : it.skip)('enableLogs', async function () {
+    const options = new safari.Options()
+      .setLoggingPrefs({ browser: 'ALL' }); // Enable browser-level logging
+
+   let driver = new Builder()
+      .forBrowser(Browser.SAFARI)
+      .setSafariOptions(options)
+      .build();
+
+    try {
+      await driver.get('https://www.selenium.dev/');
+    } finally {
+      await driver.quit();
+    }
+  });
+});

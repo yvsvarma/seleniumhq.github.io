@@ -79,7 +79,7 @@ Property value: `"true"` or `"false"`
 {{< gh-codeblock path="examples/ruby/spec/browsers/safari_spec.rb#L20" >}}
 {{< /tab >}}
 {{< tab header="JavaScript" >}}
-{{< badge-code >}}
+{{< gh-codeblock path="/examples/javascript/test/browser/safariSpecificCap.spec.js#L22" >}}
 {{< /tab >}}
 {{< tab header="Kotlin" >}}
 {{< badge-code >}}
